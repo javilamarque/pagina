@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: white;
+}
+
+
+header .logo img{
+    margin: 1rem 0 1rem 10rem;
+    max-width: 200px;
+    text-align: center;
+    width: 100%;
+}
+
+.navegar{
+    margin-bottom: 1rem;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 6%, rgba(252,176,69,1) 39%);
+}
+
+.productos-destacados{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 6%, rgba(252,176,69,1) 39%);
+}
+
+ul li{
+    list-style: none;
+}
+
+#datos-contactos{
+    text-align: right;
+    padding: 2rem 2rem;
+    
+    
+}
+
+
+.list-untyled{
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
+.img-responsive{
+    padding-left: 3rem;
+}
+
+.card-body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+.pie-pagina{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 6%, rgba(252,176,69,1) 39%);
+}
+
+
+@media(min-width: 100px) and (max-width: 568px){
+    .img-responsive{
+        display: block;
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .logo .img-responsive{
+        padding-right: 17vh;
+        width: 100%;
+        height: 100%;
+    }
+
+    #datos-contactos{
+        text-align: center;
+    }
+}
+
+
+
+
+

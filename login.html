@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--ESTILOS DE BOOTSTRAP-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!--IMPORTANDO ICONOS DE BOOTSTRAP-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
+
+    <!--IMPORTANDO ESTILOS PROPIOS-->
+    <link rel="stylesheet" href="./estilo.css">
+
+    <title>Loging</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-4">
+                    <a href="./" class="logo">
+                        <img class="img-responsive" src="./image/logo.png">
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-8" id="datos-contactos">
+                    <ul class="list-untyled">
+                        <li>
+                            <a href="mailto:ventas@computerworld.com" target="new">
+                                <i class="bi bi-envelope"></i>
+                                "ventas@computerworld.com"
+                            </a>
+                        </li>
+                        <li>
+                            <a href="tel:1154068752" target="new">
+                                <i class="bi bi-telephone-forward"></i>"1154068752"
+
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/computerworld" target="new">
+                                <i class="bi bi-instagram"></i>
+                                "@computerworld"
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.google.com.ar/maps/place/Computer+World/@-34.7769127,-58.6148323,14z/data=!4m5!3m4!1s0x0:0x9527550aad14ff67!8m2!3d-34.7758255!4d-58.611052">
+                                <i class="bi bi-geo-alt"></i>
+                                "buenos aire, Virrey del Pino, Villa Dorrego"
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!--NAVBAR-->
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-success mt-4 rounded border border-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./ofertas.html">
+                        <i class="bi bi-alarm-fill"></i>
+                        Ofertas</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active navbar-brand" aria-current="page" href="./productos.html">
+                                    <i class="bi bi-currency-exchange"></i>
+                                    Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active navbar-brand" href="carrito.html">
+                                    <i class="bi bi-cart-check-fill"></i>Mi Pedido</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active navbar-brand" href="index.html">
+                                    <i class="bi bi-house-door-fill"></i>
+                                    Inicio</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!--FORMULARIO-->
+
+    <form class="mt-5">
+        <div class="container">
+            <div class="row mb-3">
+                <label for="inputEmail3" class="col-sm-2 col-form-label"> Email</label>
+                <div class="col-sm-10">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="example@mail.com">
+                </div>
+            </div>
+            <div class="row mb-3">
+                <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+                <div class="col-sm-10">
+                    <input type="password" class="form-control" id="inputPassword3">
+                </div>
+            </div>
+            <fieldset class="row mb-3">
+                <div class="col-sm-10">
+                </div>
+            </fieldset>
+            <div class="row mb-3">
+                <div class="col-sm-10 offset-sm-2">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="1"  onclick="btLogin.disabled = !this.checked">
+                        <label class="form-check-label" for="gridCheck1">
+                            Acepto Terminos y Condiciones
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary" id="login-button" name="btLogin" disabled>Enviar</button>
+        </div>
+
+        <div class="container mt-4">
+            <a href="./registro.html">Si aun no estas registrado</a>
+        </div>
+    </form>
+
+    <!--PIE DE PAGINA-->
+    <footer>
+        <div class="container mt-5">
+            <div class="row">
+                <ul class="contacto">
+                    <li><i class="bi bi-envelope"></i><a href="mailto:ventas@computerworld.com.ar">
+                            ventas@computerworld.com.ar</a></li>
+                    <li><i class="bi bi-whatsapp"></i><a
+                            href="https://api.whatsapp.com/send/?phone=1154068752&text&app_absent=0"> 1154068752</a>
+                    </li>
+                    <li><i class="bi bi-instagram"></i><a href="https://www.instagram.com/"> @computerworld</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--IMPORTANDO BOOTSTRAP AL HTML-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+    <!--IMPRTARNDO JS PROPIO-->
+    <script src="./js/login.js" rel="javascript"></script>
+
+    
+</body>
+
+</html>
