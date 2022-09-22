@@ -6,15 +6,31 @@
 
 body{
     background-color: white;
+    background-image: url(./image/fondo.jpg);
 }
+
 
 
 header .logo img{
     margin: 1rem 0 1rem 10rem;
-    max-width: 200px;
-    text-align: center;
+    max-width: 300px;
+    margin-left: 4rem;
+    margin-top: 1rem;
     width: 100%;
+    
 }
+
+.logo-png{
+    width: 50%;
+    
+}
+
+#datos-contactos{
+    width: 50%;
+    display: inline;
+    text-align: center;
+}
+
 
 .navegar{
     margin-bottom: 1rem;
@@ -29,13 +45,6 @@ header .logo img{
 
 ul li{
     list-style: none;
-}
-
-#datos-contactos{
-    text-align: right;
-    padding: 2rem 2rem;
-    
-    
 }
 
 
@@ -59,7 +68,13 @@ ul li{
 }
 
 
-@media(min-width: 100px) and (max-width: 568px){
+.card-img-top:hover{
+    transform: scale(1.07);
+    transition-delay: 100ms;
+    border: 1px solid white;
+}
+
+@media(min-width: 100px) and (max-width: 400px){
     .img-responsive{
         display: block;
         padding-left: 0;
@@ -74,6 +89,7 @@ ul li{
 
     #datos-contactos{
         text-align: center;
+        display: inline;
     }
 }
 
