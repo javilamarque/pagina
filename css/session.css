@@ -1,0 +1,112 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-image: url(../image/fondo.jpg);
+}
+
+.form-control{
+    border-radius: 10px;
+    border:1px solid rgb(8, 8, 8);
+}
+
+.form-login{
+    margin: 25px auto;
+    border: 1px solid #ccc;
+    height: 30rem;
+    width: 70%;
+    box-shadow: 7px 7px 15px #592A08;
+    text-align: center;
+    color: white;
+}
+
+.formulario{
+    margin-top: 5rem;
+    width: 70%;
+    margin-left: 15%;
+}
+
+#acuerdo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 10px;
+
+}
+
+.enviar:hover{
+    color:black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.register{
+    width: 25%;
+}
+
+ul li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.title{
+    color: white;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.pie-pagina{
+    text-align: center;
+    padding-bottom: 0%;
+    width: 100%;
+    bottom: 0%;
+    
+    
+}
+
+/*ICON WHATSAPP*/
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:1280px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+
+    .contacto{
+        padding: 1rem 3rem 1rem 3rem;
+        text-align: center;
+    }
+
+}
+
+
+
+
