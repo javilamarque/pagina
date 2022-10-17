@@ -30,56 +30,46 @@ header .logo img{
     text-align: center;
 }
 
-
+.card-body{
+    text-align: center;
+}
 .navegar{
-    margin-bottom: 1rem;
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 6%, rgba(252,176,69,1) 39%);
+    background-image: url(../image/logoCW.jpg);
+    background-image: no-repeat;
+    background-position: 10px 1480px; 
+}
+
+.carro{
+    margin-top: 20px;
 }
 
 .productos-destacados{
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 6%, rgba(252,176,69,1) 39%);
+    background-image: url(../image/logoCW.jpg);
+    background-image: no-repeat;
+    background-position: 10px 1480px; 
 }
 
 ul li{
     list-style: none;
 }
 
-
 .list-untyled{
     margin-right: 2rem;
     margin-top: 1rem;
 }
 
-.img-responsive{
-    padding-left: 3rem;
-}
-
-.card-body{
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-}
-
-.pie-pagina{
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 6%, rgba(252,176,69,1) 39%);
-}
+/*FUENTE DE GOOGLE*/
+/*font-family: 'Fira Sans', sans-serif;*/
 
 
-.card-img-top:hover{
-    transform: scale(1.07);
-    transition-delay: 100ms;
-    border: 1px solid white;
-}
+
+
+
+
+
 
 @media(min-width: 100px) and (max-width: 645px){
-    .img-responsive{
-        display: block;
-        padding-left: 0;
-        width: 100%;
-    }
-
+    
     .logo .img-responsive{
         padding-right: 7vh;
         margin: 5% 20% 0 ;
@@ -97,7 +87,7 @@ ul li{
     }
 }
 
-/*ICON WHATSAPP*/
+                    /*Boton Whatsapp*/
 .btn-wsp{
     position:fixed;
     width:60px;
@@ -116,11 +106,4 @@ ul li{
 }
 .btn-wsp:hover{
     background: #20ba5a;
-}
-@media only screen and (min-width:320px) and (max-width:768px){
-    .btn-wsp{
-        width:63px;
-        height:63px;
-        line-height: 66px;
-	}
 }

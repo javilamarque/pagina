@@ -48,6 +48,11 @@ header .logo img{
     background-image: no-repeat;
     background-position: 10px 1480px; 
 }
+
+span{
+    margin: 0% 40%;
+}
+
 ul li{
     list-style: none;
 }
@@ -113,6 +118,9 @@ ul li{
         align-items:center;
         
     }
+    .producto{
+        margin-left: 10%;
+    }
 }
 
 /*ICON WHATSAPP*/
@@ -141,6 +149,7 @@ ul li{
         height:63px;
         line-height: 66px;
 	}
+    
 }
 
 

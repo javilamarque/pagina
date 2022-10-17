@@ -12,6 +12,10 @@ body{
     border:1px solid rgb(8, 8, 8);
 }
 
+.img-login{
+    width: 15rem;
+    margin-left: 45%;
+}
 .form-login{
     margin: 25px auto;
     border: 1px solid #ccc;
@@ -99,6 +103,10 @@ a:hover{
         height:63px;
         line-height: 66px;
 	}
+
+    .img-login{
+        margin-left: 20%;
+    }
 
     .contacto{
         padding: 1rem 3rem 1rem 3rem;
